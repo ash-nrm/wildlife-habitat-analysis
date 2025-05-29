@@ -1,15 +1,23 @@
-# Wildlife Habitat Analysis
+# Forest Cover Type Prediction
 
-This project uses Python and pandas to analyze habitat data for wildlife populations.
+This project uses decision trees and random forests to classify forest cover types based on cartographic features from the Roosevelt National Forest dataset.
 
-## Summary
+## Project Structure
 
-- Cleaned raw CSV data from a public database
-- Built visualizations of animal movement patterns
-- Created a classification model to predict habitat usage
+- `data/covtype.csv` - Raw dataset from Kaggle
+- `data/clean_covtype.csv` - Cleaned and preprocessed version
+- `scripts/forest_model.py` - All data analysis and modeling code
+- `outputs/plots/` - Visualizations of the data and results
 
 ## Tools Used
-- Python
+
+- Python (Spyder IDE)
 - pandas
-- matplotlib
-- Spyder IDE 
+- matplotlib & seaborn
+- scikit-learn
+
+## Goals
+
+- Explore relationships between environmental features and forest cover
+- Build a model to predict cover types
+- Communicate results clearly and visually
