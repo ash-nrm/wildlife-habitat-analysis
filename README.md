@@ -12,4 +12,4 @@ This project uses Python and pandas to analyze habitat data for wildlife populat
 - Python
 - pandas
 - matplotlib
-- Jupyter Notebook
+- Spyder IDE 
